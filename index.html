@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="pages\css\mein.css">
 </head>
 
 <body>
     <div class="mein">
+        <progress max="100" value="0" id="progress"></progress>
+        <!-- nav bar  -->
         <nav>
             <div class="logo"><img src="assets\Talk-wave-site-logo.png" alt=""></div>
             <ul>
@@ -41,6 +46,7 @@
             </ul>
             <div class="nav-btn">Get Started</div>
         </nav>
+        <!-- page 1  -->
         <div class="page-1">
             <div class="page-1-left">
                 <div class="page-1-left-row-1">
@@ -168,37 +174,325 @@
                 </div>
             </div>
         </div>
-
-
-
-    </div>
-
-    <div class="page-3">
-        <div class="page-3-row-1">
-            <div class="page-3-row-1-left">
-                <img src="./assets/Line.png" alt="">
-                <h1>Some Recent Hit Podcasts On Talkwave</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et</p>
-            </div>
-            <div class="page-3-row-1-right">
-                <p>Our commitment to excellence is reflected in our customer service. We are always here to help you
-                    with any questions or concerns you may have.</p>
+        <!-- page 3  -->
+        <div class="page-3">
+            <div class="page-3-row-1">
+                <div class="page-3-row-1-left">
+                    <img src="./assets/Line.png" alt="">
+                    <h1>Some Recent Hit Podcasts On Talkwave</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et</p>
+                </div>
+                <div class="page-3-row-1-right">
+                    <p>Our commitment to excellence is reflected in our customer service. We are always here to help you
+                        with any questions or concerns you may have.</p>
                     <div class="primary-btn">
                         Get Started <span>&#x2197</span>
                     </div>
+                </div>
+            </div>
+            <div class="page-3-row-2">
+                <div class="page-3-row-2-box">
+                    <div class="page-3-row-2-box-backgroun-img">
+                        <img src="assets\Podcast-cover01.jpg" alt="">
+                    </div>
+                    <div class="page-3-row-2-box-detils">
+                        <img src="assets/fooo.png" alt="">
+                        <div class="page-3-row-2-box-detils-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="weav "></div>
+
+                        </div>
+                        <div class="bottom-text">
+                            <h1>Awakening The Spirit</h1>
+                            <h4>Mental Health </h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page-3-row-2-box">
+                    <div class="page-3-row-2-box-backgroun-img">
+                        <img src="assets\Podcast-cover02.jpg" alt="">
+                    </div>
+                    <div class="page-3-row-2-box-detils">
+                        <img src="assets/fooo.png" alt="">
+                        <div class="page-3-row-2-box-detils-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="weav "></div>
+
+                        </div>
+                        <div class="bottom-text">
+                            <h1>Moth To A Flame</h1>
+                            <h4>Relationship </h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page-3-row-2-box">
+                    <div class="page-3-row-2-box-backgroun-img">
+                        <img src="assets\Podcast-cover03.jpg" alt="">
+                    </div>
+                    <div class="page-3-row-2-box-detils">
+                        <img src="assets/fooo.png" alt="">
+                        <div class="page-3-row-2-box-detils-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="weav "></div>
+
+                        </div>
+                        <div class="bottom-text">
+                            <h1> Simply Dont Care</h1>
+                            <h4>Mindset & Well being </h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page-3-row-2-box">
+                    <div class="page-3-row-2-box-backgroun-img">
+                        <img src="assets\Podcast-cover04.jpg" alt="">
+                    </div>
+                    <div class="page-3-row-2-box-detils">
+                        <img src="assets/fooo.png" alt="">
+                        <div class="page-3-row-2-box-detils-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="weav "></div>
+
+                        </div>
+                        <div class="bottom-text">
+                            <h1> Beating The Talent</h1>
+                            <h4>Entrepreneurial </h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page-3-row-2-box">
+                    <div class="page-3-row-2-box-backgroun-img">
+                        <img src="assets\Podcast-cover05.jpg" alt="">
+                    </div>
+                    <div class="page-3-row-2-box-detils">
+                        <img src="assets/fooo.png" alt="">
+                        <div class="page-3-row-2-box-detils-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="weav "></div>
+
+                        </div>
+                        <div class="bottom-text">
+                            <h1>
+
+                                Finding The Odds</h1>
+                            <h4>Paradox & Science
+
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="page-3-row-2-box">
+                    <div class="page-3-row-2-box-backgroun-img">
+                        <img src="assets\Podcast-cover06.jpg" alt="">
+                    </div>
+                    <div class="page-3-row-2-box-detils">
+                        <img src="assets/fooo.png" alt="">
+                        <div class="page-3-row-2-box-detils-play-btn">
+                            <i class="fa-solid fa-play"></i>
+                            <div class="weav "></div>
+
+                        </div>
+                        <div class="bottom-text">
+                            <h1>
+
+                                In The Metaverse</h1>
+                            <h4>Technology </h4>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="page-3-row-2">
-            <div class="page-3-row-2-box"></div>
-            <div class="page-3-row-2-box"></div>
-            <div class="page-3-row-2-box"></div>
-            <div class="page-3-row-2-box"></div>
-            <div class="page-3-row-2-box"></div>
-            <div class="page-3-row-2-box"></div>
-            <div class="page-3-row-2-box"></div>
+        <!-- page 4 -->
+        <div class="page-4">
+            <div class="page-4-main"></div>
+            <div class="page-4-container">
+                <div class="page-4-main-left">
+                    <p>How You Are</p>
+                    <h1>Inspiring Others</h1>
+                    <div class="page-3-row-2-box-detils-play-btn play-btn">
+                        <i class="fa-solid fa-play play-btn-icon " ;"></i>
+                        <div class="weav "></div>
+
+                    </div>
+                </div>
+                <div class="page-4-main-right">
+                    <h1>Wanna Share Your Own Story To Inspire Thousands?</h1>
+                    <div class="page-4-main-right-list">
+                        <h4><span><i class="fa-solid fa-check"></i></span> Email us your iconic story</h4>
+                        <h4><span><i class="fa-solid fa-check"></i></span>Get reviewed by our team </h4>
+                        <h4><span><i class="fa-solid fa-check"></i></span>Come to our studio to shoot podcast</h4>
+                        <div class="page-4-main-right-list-btns">
+                            <div class="page-4-main-right-list-btn btn-1">Submit Story</div>
+                            <div class="page-4-main-right-list-btn btn-2">Learn More <span>&#x2197</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <!-- page 5  -->
+        <div class="page-5">
+            <div class="page-5-row-1">
+                <div class="page-5-row-1-left">
+                    <img src="./assets/Line.png" alt="">
+                    <h1>Why Talkwave Has Been A Choice For <span>Everyone</span> </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et</p>
+                </div>
+                <div class="page-5-row-1-right">
+                    <p>Our commitment to excellence is reflected in our customer service. We are always here to help you
+                        with any questions or concerns you may have. </p>
+                    <div class="primary-btn">
+                        Get Started <span>&#x2197</span>
+                    </div>
+                </div>
+            </div>
+            <div class="page-5-row-2">
+                <div class="page-5-row-2-box page-5-row-2-box1">
+                    <div class="top">
+                        <div class="top-row-1">
+                            <img src="./icons/preview.png" alt="">
+                        </div>
+                        <h3>Popular & Great Topics</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="bottom">
+                        <h4>Get Featured</h4>
+                        <h1>Cast Application For Everyone</h1>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                    </div>
+                </div>
+                <div class="page-5-row-2-box page-5-row-2-box2">
+                    <div class="box">
+                        <div class="box-icon"><img src="./icons/rocket.png" alt=""></div>
+                        <h1> Stronge & Quick Solution</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="page-5-row-2-box page-5-row-2-box3">
+                    <div class="top">
+                        <div class="top-row-1">
+                            <img src="./icons/share.png" alt="">
+                        </div>
+                        <h3>Experienced Team</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="bottom">
+                        <h4>Highly Professional</h4>
+                        <h1>15+ Yrs Of Experience</h1>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </p>
+                    </div>
+                </div>
+                <div class="page-5-row-2-box page-5-row-2-box4">
+                    <div class="box">
+                        <div class="box-icon"><img src="./icons/share.png" alt=""></div>
+                        <h1> Stronge & Quick Solution</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="wev-line"><img src="assets/Wave-ornament.png" alt=""></div>
+        </div>
+        <!-- page 6 -->
+        <div class="page-6">
+            <div class="page-6-left">
+                <img src="./assets/Line.png" alt="">
+                <h1>All In Onn Solution To Strive Your Business With <span>Talkwave </span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et</p>
+                <div class="page-6-left-bottom-img"><img class="page-6-left-img-2"
+                        src="assets/african-american-internet-show-host-interviewing-f-2022-08-19-21-25-32-utc-1-1024x576.jpg"
+                        alt=""></div>
+            </div>
+            <div class="page-6-right">
+                <div class="page-6-right-box">
+                    <div class="background-img"><img src="assets/Stat-icon.png" alt=""></div>
+                    <h1> <span id="page-6-right-box-h1-1">4.1</span> M</h1>
+                    <h3>Youtube Subscribers</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamc</p>
+                </div>
+                <div class="page-6-right-box">
+                    <div class="background-img"><img src="assets/Stat-icon.png" alt=""></div>
+                    <h1><span id="page-6-right-box-h1-2">560</span> +</h1>
+                    <h3>Podcast Episods</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamc</p>
+                </div>
+                <div class="page-6-right-box">
+                    <div class="background-img"><img src="assets/Stat-icon.png" alt=""></div>
+                    <h1> <span id="page-6-right-box-h1-3">900</span> M</h1>
+                    <h3>Youtube Subscribers</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamc</p>
+                </div>
+                <div class="page-6-right-box">
+                    <div class="background-img"><img src="assets/Stat-icon.png" alt=""></div>
+                    <h1> <span id="page-6-right-box-h1-4">20</span>+</h1>
+                    <h3>Special Guest </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamc</p>
+                </div>
+            </div>
+        </div>
+        <!-- page 7  -->
+        <div class="page-7">
+            <div class="page-7-main">
+                <div class="page-7-box"> </div>
+
+
+                <div class="page-7-box-det">
+                    <h1> Elevate Your Listening Pleasure With Our Handpicked Podcasts</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="wev-line"><img src="assets/Wave-ornament.png" alt=""></div>
+        <!-- page 8 -->
+        <div class="page-8">
+            <div class="page-8-row-1">
+                <div class="page-8-row-1-left">
+                    <h1>Some Recent Featured Guests On <span>Talkwave</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                </div>
+                <div class="page-8-row-1-right">
+                    <p>Our commitment to excellence is reflected in our customer service. We are always here to help you with any questions or concerns you may have. </p>
+                    <div class="primary-btn">
+                        Get Started <span>↗</span>
+                    </div>
+                </div>
+            </div>
+            <div class="page-8-row-2">
+                <div class="page-8-row-2-box box-1">
+                    <div class="row-one"><img src="assets/fooo.png" alt=""></div>
+                    <div class="row-tow"><img src="assets/Podcast-host01-768x1024.png" alt=""></div>
+                   
+                    <div class="row-three"><h3>Alexendrio</h3><p>Wellness coach</p></div>
+
+                </div>
+                <div class="page-8-row-2-box box-2">
+                    <div class="row-one"><img src="assets/fooo.png" alt=""></div>
+                    <div class="row-tow"><img src="assets/Podcast-host02-768x1024.png" alt=""></div>
+                    <div class="row-three"><h3>Clerk Pierson</h3><p>Startup Enthusiast </p></div>
+                </div>
+                <div class="page-8-row-2-box box-3">
+                    <div class="row-one"><img src="assets/fooo.png" alt=""></div>
+                    <div class="row-tow"><img src="assets/Podcast-host03-768x1024.png" alt=""></div>
+                    <div class="row-three"><h3>Anna Crimson</h3><p>Relationship Coach</p></div>
+                </div>
+                <div class="page-8-row-2-box box-4">
+                    <div class="row-one"><img src="assets/fooo.png" alt=""></div>
+                    <div class="row-tow"><img src="assets/Podcast-host04-768x1024.png" alt=""></div>
+                    <div class="row-three"><h3>Lin Yi</h3><p>Business Magnete</p></div>
+                </div>
+            </div>
+        </div>
+
 
     </div>
 
@@ -206,9 +500,19 @@
 
 
 
+    </div>
 
 
 
+    <br><br><br><br><br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     <script src="/pages\javascript\script.js"></script>
 </body>
