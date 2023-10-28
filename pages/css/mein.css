@@ -94,6 +94,8 @@ nav ul li:hover {
 .dropdown-list-2 {
     height: 150px;
     color: #fff;
+    position: relative;
+    z-index: 10;
 }
 
 .nav-ul-li-4:hover .dropdown-list {
